@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Comic Neue', cursive;
+  }
+}
+
+@keyframes pulseBorder {
+  0% {
+    border-color: rgba(96, 165, 250, 0.7);
+  }
+  50% {
+    border-color: rgba(96, 165, 250, 0.3);
+  }
+  100% {
+    border-color: rgba(96, 165, 250, 0.7);
+  }
+}
